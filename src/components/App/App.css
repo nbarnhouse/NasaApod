@@ -1,12 +1,17 @@
+body {
+  background-image: url('./public/starry-sky.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: white;
+}
+
 .App {
   text-align: center;
 }
 
 .App-header {
-  background-color: darkgreen;
   min-height: 70px;
   padding: 20px;
-  color: white;
 }
 
 .App-title {
@@ -18,5 +23,5 @@
 }
 
 pre {
-    white-space: pre-wrap;
+  white-space: pre-wrap;
 }
