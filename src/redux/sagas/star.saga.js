@@ -14,7 +14,7 @@ function* getAPODdata(action) {
 }
 
 function* starSaga() {
-  yield takeLatest('SET_APOD_DATA', getAPODdata);
+  yield takeLatest('FETCH_APOD_DATA', getAPODdata);
 }
 
 export default starSaga;
