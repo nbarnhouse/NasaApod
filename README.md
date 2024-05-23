@@ -1,45 +1,49 @@
 # PROJECT NAME
 
-Nasa API APOD
+Nasa API Astronomy Picture of the Day
 
 ## Description
 
-Each day a different image or photograph of our fascinating universe is featured, along with a brief explanation written by a professional astronomer. This is my take on how to display them.
-
 ### Prerequisites
 
+- [npm](https://www.npmjs.com)
 - [Node.js](https://nodejs.org/en/)
+- [PostgreSQL](https://www.postgresql.org)
 - [Nodemon](https://nodemon.io)
-- [Nasa Open API](https://api.nasa.gov)
 
-## Installation
+## Options if not already installed
 
-1. Open up your editor of choice and run an `npm install`
-2. Run `npm run server` in your terminal
-3. Run `npm run client` in your terminal
-4. The `npm run client` command will open up a new browser tab for you!
+npm install
+npm install nodemon
+
+## File Structure
+
+- `src/` contains the React application
+- `public/` contains static assets for the client-side
+- `server/` contains the Express App
 
 ## Usage
 
-How does someone use this application? Tell a user story here.
+This is a simple app showcasing front end design features showing Nasa API Data.
 
-1. xxx
-2. xxx
-3. xxx
-4. xxx
-5. xxx
-6. xxx
+1. Navigate to the main page
+2. Click on the image of the day
+3. View details of the image
 
 ## Built With
 
-Node
+React JS
+Node JS
+Javascript
+HTML
+CSS
+Axios
 Express
-React
-MaterialUI
+Nodemon
 
 ## Acknowledgement
 
-Thanks to [Prime Digital Academy](www.primeacademy.io) who equipped and helped me to make this application a reality and thanks to NASA who has some pretty cool free APIs.
+Thanks to [Prime Digital Academy](www.primeacademy.io) who equipped and helped me to make this application a reality. Thank you to NASA who has some pretty great free APIs.
 
 ## Support
 
