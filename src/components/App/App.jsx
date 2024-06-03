@@ -12,14 +12,13 @@ function App() {
   }, [dispatch]);
 
   return (
-    <div className="App">
-      <h2>This is the sky!</h2>
-      <p>Add picture and data here </p>
-      {star.title}
-      {star.copywright}
-      {star.date}
-      {star.explanation}
-      <img src={star.url} alt="NasaAPOD" />
+    <div className="">
+      <h1>{star.title}</h1>
+      <p>{star.date}</p>
+      <p>{star.explanation}</p>
+      <p>
+        <img src={star.url} alt="NasaAPOD" />
+      </p>
     </div>
   );
 }
