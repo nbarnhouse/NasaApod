@@ -1,5 +1,5 @@
 body {
-  background-image: url('./public/starry-sky.jpg');
+  background-image: url('./starry-sky.jpg');
   background-repeat: no-repeat;
   background-size: cover;
   display: flex;
