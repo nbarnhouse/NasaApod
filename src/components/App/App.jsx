@@ -13,15 +13,15 @@ function App() {
 
   return (
     <div className="container glass">
+      <h2>{star.title}</h2>
       <div className="card">
-        <div className="card-title">
-          <h2>{star.title}</h2>
-        </div>
         <div className="card-left">
           <h4>Date:</h4>
-          {star.date}
+          <p style={{ margin: '10px' }}>{star.date}</p>
           <h4>Description:</h4>
-          <p style={{ display: 'block', margin: '10px' }}>{star.explanation}</p>
+          <p style={{ display: 'block', margin: '10px 20px' }}>
+            {star.explanation}
+          </p>
         </div>
         <div className="card-right">
           <img src={star.url} alt="NasaAPOD" />
