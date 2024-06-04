@@ -12,13 +12,21 @@ function App() {
   }, [dispatch]);
 
   return (
-    <div className="">
-      <h1>{star.title}</h1>
-      <p>{star.date}</p>
-      <p>{star.explanation}</p>
-      <p>
-        <img src={star.url} alt="NasaAPOD" />
-      </p>
+    <div className="container glass">
+      <div className="card">
+        <div className="card-title">
+          <h2>{star.title}</h2>
+        </div>
+        <div className="card-left">
+          <h4>Date:</h4>
+          {star.date}
+          <h4>Description:</h4>
+          <p style={{ display: 'block', margin: '10px' }}>{star.explanation}</p>
+        </div>
+        <div className="card-right">
+          <img src={star.url} alt="NasaAPOD" />
+        </div>
+      </div>
     </div>
   );
 }

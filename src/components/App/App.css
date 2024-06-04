@@ -1,41 +1,42 @@
 body {
-  /* background-image: url('./public/starry-sky.jpg'); */
-  background-color: bisque;
+  background-image: url('./public/starry-sky.jpg');
   background-repeat: no-repeat;
   background-size: cover;
-  color: black;
-}
-
-.App {
-  /* text-align: center; */
-}
-
-.App-header {
-  min-height: 70px;
-  padding: 20px;
-}
-
-.App-title {
-  font-size: 1.5em;
-}
-
-.App-intro {
-  font-size: large;
-}
-
-pre {
-  white-space: pre-wrap;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh; /* Ensure the body takes the full viewport height */
+  margin: 0;
+  color: white;
 }
 
 .container {
-  width: 900px;
-  height: 700px;
-  margin: auto;
-  /* display: flex;
+  background-color: green;
+  width: 1200px;
+  height: 800px;
+  display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  background-color: red; */
+}
+
+.card {
+  background-color: red;
+  width: 90%;
+  height: 90%;
+  display: flex;
+}
+.card-left {
+  background-color: pink;
+  width: 50%;
+}
+
+.card-right {
+  background-color: yellow;
+  width: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .glass {
@@ -46,14 +47,12 @@ pre {
   );
   backdrop-filter: blur(10px);
   -webkit-backdrop-filter: blur(10px);
-  border-radius: 20px;
   /* border: 1px solid rgba(255, 255, 255, 0.18); */
   box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.37);
-  background-color: green;
 }
 
-.glass img {
-  height: 40%;
-  width: 60%;
-  border-radius: 20px;
+.container img {
+  height: 80%;
+  width: 80%;
+  border-radius: 10px;
 }
