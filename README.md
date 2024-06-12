@@ -1,8 +1,10 @@
 # PROJECT NAME
 
-Nasa API Astronomy Picture of the Day
+Tigo Monitoring App
 
 ## Description
+
+
 
 ### Prerequisites
 
@@ -10,11 +12,13 @@ Nasa API Astronomy Picture of the Day
 - [Node.js](https://nodejs.org/en/)
 - [PostgreSQL](https://www.postgresql.org)
 - [Nodemon](https://nodemon.io)
+- Material UI
 
 ## Options if not already installed
 
 npm install
 npm install nodemon
+npm install @mui/material @emotion/react @emotion/styled
 
 ## File Structure
 
