@@ -4,7 +4,7 @@ Nasa API Astronomy Picture of the Day
 
 ## Description
 
-
+This project has taken the OPEN API data from Nasa and formatted it into a nice visual representation using a CSS glassmorphism effect.
 
 ### Prerequisites
 
