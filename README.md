@@ -1,6 +1,6 @@
 # PROJECT NAME
 
-Tigo Monitoring App
+sa API Astronomy Picture of the Day
 
 ## Description
 
@@ -12,13 +12,12 @@ Tigo Monitoring App
 - [Node.js](https://nodejs.org/en/)
 - [PostgreSQL](https://www.postgresql.org)
 - [Nodemon](https://nodemon.io)
-- Material UI
+
 
 ## Options if not already installed
 
 npm install
 npm install nodemon
-npm install @mui/material @emotion/react @emotion/styled
 
 ## File Structure
 
