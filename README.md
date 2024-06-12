@@ -1,6 +1,6 @@
 # PROJECT NAME
 
-sa API Astronomy Picture of the Day
+Nasa API Astronomy Picture of the Day
 
 ## Description
 
